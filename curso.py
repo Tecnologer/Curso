@@ -44,7 +44,7 @@ for k,v in a.iteritems():
 def fib(n):
 	a=0
 	b=1
-	while a<n
+	while (a<n)
 		print(a, end=" ")
 		a, b =b, a+b
 	print()
@@ -58,3 +58,21 @@ def funcion(arguments,keyword_argument,*arg, **kwargs)
 	- *arg: aceptar una lista de argumentos
 	- **kwargs: 
 '''
+
+'''
+	Crear un paquete:
+		- Crear una carpeta y crear un archivo llamado __init__.py
+		Ejemplo:
+			Sounds/__init__.py
+
+	Importar paquete:
+		- Import package
+		Ejemplo:
+			Import Sounds 
+		** se puede asignar un alias a la importancion del archivo dentro del paquete
+		Ejemplo:
+			Import Sounds.error as e
+
+			e.play()
+'''
+

@@ -1,0 +1,27 @@
+Insert
+	- insert()
+Query en mongo
+	- find()
+Operadores de comparacion
+	$gt -> mayor que
+	$lt -> menor que
+	$ne -> diferente
+	$in -> que este dentro de []
+Operadores logicos
+	$or
+	$and
+Actualiza
+	- $set -> asigna los valores especificados
+	- db.collection.update(query, update, options)
+		* query -> filtros (where)
+		* update -> datos a actualizar
+		* options -> tipo de update
+Borrar
+	- remove()
+	db.collection.remove(
+	   <query>,
+	   {
+	     justOne: <boolean>,
+	     writeConcern: <document>
+	   }
+	)
